@@ -1,0 +1,25 @@
+{
+  "model_name": "MiniMax-H3",
+  "base_url": "https://api.minimaxi.com",
+  "submit_path": "/v2/video_generation",
+  "query_path_template": "/v2/query/video_generation/{task_id}",
+  "resolutions": [
+    "768P",
+    "2K"
+  ],
+  "duration_seconds_min": 4,
+  "duration_seconds_max": 15,
+  "modes": [
+    "text_to_video",
+    "image_to_video",
+    "multimodal_to_video"
+  ],
+  "local_first_frame_formats": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".webp"
+  ],
+  "local_first_frame_max_mb": 20,
+  "note": "Deployments may differ. Override only after actual endpoint testing."
+}

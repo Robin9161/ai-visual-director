@@ -1,0 +1,23 @@
+[
+  {"id":"T01","name":"Kinetic Statement","use":"结论、反转、金句、章节落点","guidance":"主标题+一个背景证据/物体+一种批注；材质揭示→标题进入→单一强调→回稳"},
+  {"id":"T02","name":"Concept Hero","use":"第一次引入核心概念","guidance":"巨大概念词+一个辅助隐喻物；适合 Hero，但品牌关键文字优先 deterministic"},
+  {"id":"T03","name":"Number Impact","use":"已核实数字、比例、排名","guidance":"一个主数字+单位+极短结论；数字/单位/来源必须真实"},
+  {"id":"T04","name":"Evidence Excerpt","use":"论文、文章、报告、引用","guidance":"真实来源页+高亮+关联证明；缺真实证据禁止伪造"},
+  {"id":"T05","name":"Relation Flow","use":"2–3步流程、因果、依赖","guidance":"2–3节点+清晰路径；超过3个带字节点转 deterministic"},
+  {"id":"T06","name":"Character Feedback","use":"用户、角色、反馈、案例反应","guidance":"人物主体+动作+最多两个反馈物；真实评价需证据"},
+  {"id":"T07","name":"Chapter Sequence","use":"章节、阶段、步骤概览","guidance":"3–5章节卡，总览→选中→进入；长文字 Hyperframes"},
+  {"id":"T08","name":"Overlay to Fullscreen","use":"口播卡片接管全屏","guidance":"A-roll叠加→扩张→全屏→状态变化；透明合成 deterministic"},
+  {"id":"T09","name":"3D Parallax Stage","use":"核心观点、空间层次、主体能力","guidance":"前景遮挡+主体+支持物+稳定文字面；单一弧线运镜"},
+  {"id":"T10","name":"Keyword Strips","use":"口播重点关键词","guidance":"1–2条纸条，避开脸和字幕；透明叠加 deterministic 更稳"},
+  {"id":"T11","name":"Audience Overlap Spotlight","use":"多条件交集、筛选、市场匹配","guidance":"中心人物/图标+2–4交集区域+结论"},
+  {"id":"T12","name":"White Diorama System","use":"组织结构、工作流、系统讲解","guidance":"白色微缩场景；每镜只讲一个子场景，禁密集伪UI"},
+  {"id":"T13","name":"Low-poly Dialogue","use":"对话、谈判、拒绝、观点交锋","guidance":"主说话者+短气泡+简单场景；禁止虚构真人引语"},
+  {"id":"T14","name":"Split System Comparison","use":"新旧、开放封闭、双平台/阵营","guidance":"左右两侧+中央关系源+结果；真实品牌/Logo要原素材"},
+  {"id":"T15","name":"Evidence Desk Parallax","use":"多份资料、来源链路、证明材料","guidance":"真实页面/文件夹/高亮/关联图；所有证据必须真实"},
+  {"id":"T16","name":"Biography Archive to Blueprint","use":"人物档案、个人贡献到系统影响","guidance":"人物照片+历史图+身份信息+蓝图；不生成伪历史证据"},
+  {"id":"T17","name":"3D Product Assembly","use":"模块、零件、产品组装","guidance":"单部件+底座+模块+最终状态；需要真实多角度与组装顺序"},
+  {"id":"T18","name":"Geospatial Intelligence Map","use":"地点、供应商、客户、全球网络","guidance":"档案→地图→信标→连接；地点和关系数据必须准确"},
+  {"id":"T19","name":"Technology Evolution Timeline","use":"产品代际、发明史、技术演进","guidance":"时间带+至少3节点；名称日期图片真实"},
+  {"id":"T20","name":"Branching Taxonomy Network","use":"能力树、分类、技术栈、供应链","guidance":"来源→核心→2–3分支；更多分支拆镜"},
+  {"id":"T21","name":"Technical Mechanism Explainer","use":"信号、协议、传感器、产品原理","guidance":"输入→当前机制→输出；每镜一个机制步骤，禁止伪参数/伪内部结构"}
+]
