@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TP Director Plan 2.4 (AVD-compatible schema)",
+  "type": "object",
+  "required": ["schema_version","project","source","world","approval","audio_policy","asset_requests","segments","shots"],
+  "properties": {
+    "schema_version": {"const": "2.4"},
+    "project": {"type":"object","required":["name","aspect_ratio"],"properties":{"name":{"type":"string"},"aspect_ratio":{"type":"string"}}},
+    "source": {"type":"object","required":["input_mode","timebase"],"properties":{"input_mode":{"enum":["srt","transcript","talking_head_video"]},"timebase":{"const":"seconds"}}},
+    "world": {"type":"object","required":["status","version"],"properties":{"status":{"enum":["DRAFT","SELECTED","LOCKED"]},"version":{"type":"string"}}},
+    "approval": {"type":"object","required":["status","approved_shots"],"properties":{"status":{"enum":["pending","partially_approved","approved","rejected"]},"approved_shots":{"type":"array","items":{"type":"string"}}}},
+    "audio_policy":{"type":"object"},
+    "asset_requests":{"type":"array"},
+    "segments":{"type":"array"},
+    "shots":{"type":"array"}
+  }
+}
