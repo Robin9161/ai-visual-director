@@ -1,0 +1,11 @@
+# Art Direction Card
+- 名称：
+- 一句话世界：
+- 为什么适合：
+- 风险：
+- Palette / Material / Lighting / Camera / Motion：
+- 人物/环境/道具：
+- Visual Motif：
+- Cleanliness Baseline：
+- Negative Rules：
+- 4 Preview：Environment / Asset / Normal Narrative / Hero。

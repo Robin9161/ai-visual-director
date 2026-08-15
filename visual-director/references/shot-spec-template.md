@@ -1,0 +1,2 @@
+# Shot Spec
+Beat ID / Shot ID / SRT Time / Source Text / Core Proposition / Visual Purpose / Grade / Role / Candidate Count / Render Medium / Grammar / Complexity / Motif & State / Silent Test / Start-KeyChange-End / MASTER / Reference / Template ID / Historical Mode / Narration Duration / Preferred Duration / Handle In/Out / Precision Mode & Target / Keyframe Mode / Cleanliness Risk / Approval / Status。

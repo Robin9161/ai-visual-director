@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.4",
+  "project": {"name":"FFmpeg_first_90s","aspect_ratio":"16:9"},
+  "source": {"input_mode":"srt","path":"FFmpeg.srt","timebase":"seconds"},
+  "world": {"status":"LOCKED","version":"v01","style":"隐形基础设施·真实科技电影"},
+  "production": {"resolution":"2K","duration":6},
+  "api": {"model":"MiniMax-H3","base_url":"https://api.minimaxi.com"},
+  "approval": {"status":"pending","approved_shots":[]},
+  "audio_policy": {"generated_audio":"sfx_only","music":"forbidden","dialogue":"forbidden","preserve_source_speech":true,"sfx_gain_db":-18},
+  "edit": {"enabled":true,"broll_mode":"fullscreen_replace","transition_sec":0.12,"output_name":"roughcut.mp4"},
+  "script_blockers": [],
+  "asset_requests": [{"request_id":"R001","segment_ids":["S001"],"shot_ids":["B001"],"asset_type":"reference_image","description":"媒体流视觉载体 MASTER","status":"provided","blocks_generation":true,"resolved_path":"master_assets/media-flow/hero_clean.png"}],
+  "segments": [{"segment_id":"S001","order":1,"start_sec":22.033,"end_sec":31.766,"transcript_text":"它们需要被剪辑压缩转码封装上传，再通过服务器分发到你的手机和电脑上","route":"H3_VIDEO","reason":"解释处理链路","template_id":"T05","visual_intent":"观众理解视频在看见前经过一条处理链","shot_id":"B001"}],
+  "shots": [{"shot_id":"B001","short_name":"视频处理链","segment_ids":["S001"],"start_sec":22.033,"end_sec":31.766,"grade":"A","role":"HERO","is_main":true,"candidate_count":3,"render_medium":"H3_VIDEO","visual_grammar":"RELATION_FLOW","complexity":"HERO","silent_test":88,"motif":"屏幕下面的世界","motif_state":"ESTABLISH","template_id":"T05","mode":"image_to_video","first_frame_image":"master_assets/media-flow/hero_clean.png","reference_media":[],"precision_mode":"NONE","keyframe_mode":"PRODUCTION","keyframe_gate":"PASS","duration":10,"resolution":"2K","ratio":"16:9","prompt":"一个连续电影镜头。真实科技电影世界，干净低饱和工业材质。媒体流载体从剪辑工作台进入压缩与转码通道，再进入封装节点，上传到远端服务器，最终分发到手机和电脑。摄影机缓慢跟随同一载体前进，路径清晰，不使用任何可读文字、Logo、HUD或霓虹赛博元素，背景低噪音，主体始终明确。只允许机械滑轨、数据载体掠过和轻微设备环境声；禁止音乐、旋律、对白、旁白。","audio_design":{"generated_audio":"sfx_only","music":false,"dialogue":false,"sfx":["机械滑轨","克制设备环境声"]},"output_name":"B001_视频处理链_A_HERO_v01_c01.mp4","approval":"pending"}]
+}
